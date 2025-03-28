@@ -4,23 +4,6 @@ A project to design and implement a **wireless electronic notice board** using *
 
 ---
 
-## 📌 Table of Contents  
-- [Introduction](#introduction)  
-- [Objectives](#objectives)  
-- [Hardware Requirements](#hardware-requirements)  
-- [Software Requirements](#software-requirements)  
-- [System Design](#system-design)  
-  - [Block Diagram](#block-diagram)  
-  - [Architecture](#architecture)  
-  - [Setup Diagram](#setup-diagram)  
-- [Methodology](#methodology)  
-- [Circuit Connection Explanation](#circuit-connection-explanation)  
-- [Steps to Set Up the System](#steps-to-set-up-the-system)  
-- [Final Working of the System](#final-working-of-the-system)  
-- [Key Features](#key-features)  
-
----
-
 ## 📖 Introduction  
 
 1. Digital advertisements have become popular in **shopping malls, supermarkets, and airports**.  
