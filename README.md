@@ -51,9 +51,31 @@ Mobile Phone – Used to send messages via the Serial Bluetooth Terminal App.
 1. **Mobile Phone**: Hosts the `LED Art App` to send messages.  
 2. **Wi-Fi Controller Card**: Receives messages via Wi-Fi.  
 3. **Power Supply**: Powers the Wi-Fi controller card and LED display.  
-4. **P10 LED Display**: Displays messages sent from the mobile application.  
-
+4. **P10 LED Display**: Displays messages sent from the mobile application.
+   
+## Methodology
+1. Establish a Wi-Fi network connecting the mobile application to the system.
+2. Verify user authorization using password authentication.
+3. Save the transmitted message in the memory of the Wi-Fi module.
+4. Retrieve messages using specific commands and send them to the display board.
+5. Display messages on the P10 LED display.
 ---
+
+### Setup Diagram
+![Setup Diagram](Set%20up%20Diagram.png)  
+**Fig 3: Setup Diagram**
+1. Wi-Fi antenna(1): Connect the computer or mobile phone through Wi-Fi to send
+parameters and programs.
+2. Power connector(2): Connect +5V power supply.
+3. S1 test button(3): Click to switch screen test status.
+4. Port 7(4): Connect the brightness sensor.
+5. S2 Connect the point switch(5):switch to next program, the timer starts, count plus.
+6. S3 Connect the point switch(6): Switch the previous program, timer reset, count
+down.
+7. S4 Connect the point switch(7): Program control, timing pause, count reset.
+8. HUB12(8): Connect the display.
+9. Port5(9): Connect the temperature/humidity sensor.
+10. Port11(10): Connect the IR, by remote control.
 
 ### Architecture
 ![Architecture](Architecture.png)  
@@ -117,31 +139,6 @@ Circuit Connection Explanation
   ✅ Works with a single P10 panel or multiple chained panels.
   ✅ Simple and cost-effective solution for LED display boards.
 
-### Setup Diagram
-![Setup Diagram](Set%20up%20Diagram.png)  
-**Fig 3: Setup Diagram**
 
-#### Key Features:
-- **Wi-Fi Antenna**: Connects mobile phone/computer to the system.  
-- **Power Connector**: Supplies +5V power.  
-- **Buttons and Ports**:
-  - Port 7: Brightness sensor.
-  - Port 5: Temperature/humidity sensor.
-  - Port 11: IR remote control.
 
----
-
-## Methodology
-1. Establish a Wi-Fi network connecting the mobile application to the system.
-2. Verify user authorization using password authentication.
-3. Save the transmitted message in the memory of the Wi-Fi module.
-4. Retrieve messages using specific commands and send them to the display board.
-5. Display messages on the P10 LED display.
-
----
-
-## Project Highlights
-- **Easy to operate**: Controlled via a mobile app.
-- **Versatile deployment**: Works in various locations with Wi-Fi connectivity.
-- **Energy efficient**: Designed for low power consumption.
 
