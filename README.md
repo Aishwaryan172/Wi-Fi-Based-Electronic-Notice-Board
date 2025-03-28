@@ -74,6 +74,49 @@ Circuit Connection Explanation
     Insert one end into the HD-W00 controller’s HUB12 port.
     Insert the other end into the P10 LED module’s HUB12 port.
 
+  Steps to Set Up the System
+  Step 1: Powering Up the System
+  Ensure all connections are correct before switching on the SMPS power supply.
+  
+  Turn on the SMPS, and both the HD-W00 controller and P10 LED module should power up.
+  
+  The HD-W00 LED indicator should start blinking, indicating that it's ready to connect via Wi-Fi.
+  
+  Step 2: Connecting to the HD-W00 via Wi-Fi
+  On your mobile phone, enable Wi-Fi.
+  
+  Look for the Wi-Fi network broadcasted by the HD-W00 controller (e.g., LED-WIFI-XXXX).
+  
+  Connect to this Wi-Fi network (no password required by default).
+  
+  Step 3: Sending Messages via Serial Bluetooth Terminal App
+  Install the "Serial Bluetooth Terminal" app from the Google Play Store.
+  
+  Open the app and go to Devices.
+  
+  Select HD-W00 from the available devices list.
+  
+  Tap Connect, and the status should change to "Connected".
+  
+  Now, go to the terminal section of the app and type a message (e.g., "HELLO WORLD").
+  
+  Tap Send, and the message should appear on the P10 LED display!
+  
+  ✅ Final Working of the System
+  The HD-W00 controller receives the message from the Serial Bluetooth Terminal app.
+  
+  It processes the message and sends it to the P10 LED module via the HUB12 interface.
+  
+  The P10 LED module displays the message in real time.
+  
+  Users can update the message anytime using the app without reprogramming the hardware.
+  
+  🎯 Key Features of This Setup
+  ✅ No need for additional microcontrollers like Arduino – The HD-W00 directly controls the display.
+  ✅ Wireless message updating – No need to connect cables; just use the app.
+  ✅ Works with a single P10 panel or multiple chained panels.
+  ✅ Simple and cost-effective solution for LED display boards.
+
 ### Setup Diagram
 ![Setup Diagram](Set%20up%20Diagram.png)  
 **Fig 3: Setup Diagram**
