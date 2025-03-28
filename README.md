@@ -33,16 +33,11 @@ A project to design and implement a wireless electronic notice board using Wi-Fi
 
 ---
 
-## Hardware Requirements
-- Single Color Wi-Fi Control Card(HD-W00)
-- Temperature Sensor(LM35)
-- Power Source(SMPS) 
-- P10 LED Display  
-
----
-
-## Software Requirements
-- **LED Art App** or **Computer** for controlling the display.
+Required Components
+P10 LED Display Module (HUB12) – Displays text and animations.
+Wi-Fi Controller Card (HD-W00) – Controls the LED display via Wi-Fi.
+Power Supply (SMPS, 5V 40A recommended) – Powers both the HD-W00 and P10 LED panel.
+Mobile Phone – Used to send messages via the Serial Bluetooth Terminal App.
 
 ---
 
@@ -65,6 +60,19 @@ A project to design and implement a wireless electronic notice board using Wi-Fi
 **Fig 2: Architecture of Wireless Notice Board**
 
 ---
+Circuit Connection Explanation
+1️⃣ Power Connections (SMPS → HD-W00 & P10 LED Module)
+    Connect +5V from the SMPS to the VCC (5V) terminals of both:
+    P10 LED module (5V input terminal).
+    HD-W00 controller card (5V input terminal).
+    Connect GND from the SMPS to the GND terminals of both:
+    P10 LED module (GND terminal).
+    HD-W00 controller card (GND terminal).
+
+2️⃣ Data (Signal) Connections (HD-W00 → P10 LED Panel via HUB12 Port)
+    Use the ribbon cable to connect the HD-W00 controller to the P10 LED module:
+    Insert one end into the HD-W00 controller’s HUB12 port.
+    Insert the other end into the P10 LED module’s HUB12 port.
 
 ### Setup Diagram
 ![Setup Diagram](Set%20up%20Diagram.png)  
