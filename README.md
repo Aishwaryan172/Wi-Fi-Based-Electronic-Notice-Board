@@ -35,7 +35,6 @@ A project to design and implement a wireless electronic notice board using Wi-Fi
 
 ## Hardware Requirements
 - Single Color Wi-Fi Control Card(HD-W00)
-- RTC (Real-Time Clock)  
 - Temperature Sensor(LM35)
 - Power Source(SMPS) 
 - P10 LED Display  
